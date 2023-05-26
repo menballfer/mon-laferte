@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0.67em 0;
+}
+
+iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 390px;
+}
+
+hr {
+  border: thin solid #e4e4e7;
+  margin: 2em 0;
+}
+
+.btn {
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  background-color: #e4e4e7;
+  color: #171717;
+}
+
+.btn:hover {
+  background-color: #e4e4e7;
+}
+
+.btn-more {
+  display: none;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.column-left {
+  background-color: #ef4444;
+  min-width: 60%;
+  min-height: 100vh;
+  padding: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fafafa;
+  position: sticky;
+  top: 0;
+}
+
+.aside-img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 0.25em;
+}
+
+.aside-name {
+  font-size: 2.25em;
+  text-transform: uppercase;
+  margin: 0.67em 0 0.25em;
+  letter-spacing: 0.25em;
+}
+
+.aside-tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.column-right {
+  min-width: 40%;
+  padding: 1.25em;
+}
+
+.article-header {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  border-bottom: 1px solid #ef4444;
+  padding: 0 0 1em;
+}
+
+.article-body {
+  text-align: justify;
+}
+
+.gallery {
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.footer {
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.social > a {
+  text-decoration: none;
+  color: #171717;
+}
+
+.social > a:hover {
+  color: #ef4444;
+}
+
+.author {
+  text-decoration: none;
+  color: #ef4444;
+}
