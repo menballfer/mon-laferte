@@ -129,10 +129,6 @@ hr {
   padding: 1em 2em;
 }
 
-.footer {
-  text-decoration: none;
-}
-
 .social {
   display: flex;
   justify-content: center;
@@ -152,4 +148,26 @@ hr {
 .author {
   text-decoration: none;
   color: #ef4444;
+}
+
+@media (max-width: 320px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column-left {
+    position: static;
+  }
+
+  .aside-name {
+    font-size: 1.75em;
+  }
+
+  .btn-more {
+    display: inline-block;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
 }
