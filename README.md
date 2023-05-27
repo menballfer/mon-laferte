@@ -1,8 +1,6 @@
 # Mon Laferte
 
-<p style="text-align: center;">
-    <img  src="img/mon-laferte.webp" alt="mon-laferte">
-</p>
+<img  src="img/mon-laferte.webp" alt="mon-laferte">
 
 ## About
 
