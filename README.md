@@ -1,5 +1,6 @@
 # Mon Laferte
 
-<img style="" src="img/mon-laferte.webp" alt="mon-laferte">
+<img style="text-align: center;" src="img/mon-laferte.webp" alt="mon-laferte">
 
-- Pagína echa con HTML y CSS.
+- Realizado con mucho cariño.
+- Sitio web realizado con HTML y CSS.
